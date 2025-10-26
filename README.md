@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Kunal Singh — Professional Video Editing Portfolio
 
-## Getting Started
+A cinematic, motion-driven portfolio for Kunal Singh showcasing hero video loops, kinetic typography, featured project lightboxes, and a showreel centerpiece. Built with Next.js 16, the App Router, Tailwind CSS v4, and Framer Motion for refined transitions.
 
-First, run the development server:
+### Tech Stack
+
+- Next.js 16 (App Router, TypeScript)
+- Tailwind CSS v4
+- Framer Motion
+- next/font with Poppins + Inter
+
+### Key Features
+
+- Full-screen looping hero video with parallax typography and motion CTA
+- Sticky navigation with scroll-aware highlighting and magnetic hover effect
+- Animated sections for About, Work, Showreel, and Contact with intentional pacing
+- Work grid that opens cinematic lightbox overlays for each project
+- Showreel embed framed by cinematic borders and lighting accents
+- Cursor-follow glow and tactile button interactions for added depth
+
+### Getting Started
+
+Install dependencies and start the dev server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to explore the portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Customisation Checklist
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Replace `public/videos/kunal-singh-reel-loop.mp4` with the final looping hero background (same filename).
+- Update project links in `src/components/HomePage.tsx` and swap `public/videos/showreel.mp4` if you have a different reel cut.
+- Add high-resolution OG image to `public/og-image.png` for social sharing previews.
+- Adjust palette or typography in `src/app/globals.css` if needed.
 
-## Learn More
+### Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` — start the development server
+- `npm run build` — create an optimized production build
+- `npm start` — run the production build locally
+- `npm run lint` — execute ESLint over the project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploy to any Next.js-compatible host (Vercel recommended). Run `npm run build` locally before shipping to ensure the cinematic animations compile without issues.
