@@ -12,7 +12,7 @@ export default function ContactSection() {
     const message = form.get("message")?.toString() ?? "";
     const subject = encodeURIComponent(`Project Inquiry — ${name || "Kunal Singh Portfolio"}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
-  window.location.href = `mailto:kunalsingh.prf@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:kunalsingh.prf@gmail.com?subject=${subject}&body=${body}`;
   }, []);
 
   return (
@@ -78,12 +78,12 @@ export default function ContactSection() {
           <span>Connect</span>
           <div className="flex flex-wrap justify-center gap-4 text-[0.7rem] text-[#f5e6d3]">
             <a
-              href="https://www.instagram.com/m_kunxl/"
+              href="https://www.instagram.com/lastcookiee.vx/"
               target="_blank"
               rel="noreferrer"
               className="transition-colors hover:text-[#f6e8cb]"
             >
-              Instagram @m_kunxl
+              Instagram @lastcookiee.vx
             </a>
             <a
               href="mailto:kunalsingh.prf@gmail.com"
