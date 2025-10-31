@@ -8,7 +8,7 @@ Crafted with **Next.js 16**, the **App Router**, **Tailwind CSS v4**, and **Fram
 ## 🚀 Live Demo
 
 - 🌐 **Deployed Site:** [editing-portfolio-cyan.vercel.app](https://editing-portfolio-cyan.vercel.app)  
-- 💻 **GitHub Repository:** _[Add repo link here once public]_  
+- 💻 **GitHub Repository:** [github.com/lastcookiee/EditingPortfolio](https://github.com/lastcookiee/EditingPortfolio)  
 
 ---
 
@@ -86,3 +86,9 @@ Then push your changes — Vercel will handle automatic builds and deployments.
 
 **Kunal Singh**  
 [🔗 LinkedIn](https://www.linkedin.com/in/kunal-singh-393821187/) • [💻 GitHub](https://github.com/lastcookiee)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE). Feel free to fork, adapt, and deploy with attribution.
